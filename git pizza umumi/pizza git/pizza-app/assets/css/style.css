@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mycontainer {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#area {
+    width: 600px;
+    height: 600px;
+    margin: 10px;
+    border-radius: 100%;
+    border: 2px solid #000;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+}
+
+#area .red {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#area .blue {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#area .yellow {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#area .green {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#area .cyan {
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#place{
+    width: 40%;
+}
+
+#place .red {
+    border: 2px solid #fff;
+    width: 20%;
+    height: 100px;
+    background-color: red;
+}
+
+#place .blue {
+    border: 2px solid #fff;
+    width: 20%;
+    height: 100px;
+    background-color: blue;
+}
+
+#place .yellow {
+    border: 2px solid #fff;
+    width: 20%;
+    height: 100px;
+    background-color: yellow;
+}
+
+#place .green {
+    border: 2px solid #fff;
+    width: 20%;
+    height: 100px;
+    background-color: green;
+}
+
+#place .cyan {
+    border: 2px solid #fff;
+    width: 20%;
+    height: 100px;
+    background-color: cyan;
+}
+
+
+
+#mobile-tab .red {
+    border: 2px solid #fff;
+    width: 20%;
+    height: 100px;
+    background-color: red;
+}
+
+#mobile-tab .blue {
+    border: 2px solid #fff;
+    width: 20%;
+    height: 100px;
+    background-color: blue;
+}
+
+#mobile-tab .yellow {
+    border: 2px solid #fff;
+    width: 20%;
+    height: 100px;
+    background-color: yellow;
+}
+
+#mobile-tab .green {
+    border: 2px solid #fff;
+    width: 20%;
+    height: 100px;
+    background-color: green;
+}
+
+#mobile-tab .cyan {
+    border: 2px solid #fff;
+    width: 20%;
+    height: 100px;
+    background-color: cyan;
+}
+
+
+@media (max-width: 600px) {
+    #place{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: 20%;
+    }
+    .mycontainer{
+        width: 100%;
+        margin: auto;
+    }
+    #area {
+        width: 400px;
+        height: 400px;
+        margin: 10px;
+        border-radius: 100%;
+        border: 2px solid #000;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+    }
+
+    #area .red {
+        width: 50px;
+        height: 50px;
+        background-color: red;
+        position: absolute;
+        transform: translate(-50%, -50%);
+    }
+
+    #area .blue {
+        width: 50px;
+        height: 50px;
+        background-color: blue;
+        position: absolute;
+          transform: translate(-50%, -50%);
+    }
+
+    
+}

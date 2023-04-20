@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.boxes {
+    width: 100%;
+    margin: 70px auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    .sol {
+        position: relative;
+        width: 22%;
+
+        .biber {
+            position: absolute;
+            left: 20%;
+opacity: 0;
+visibility: hidden;
+            width: 70%;
+
+            h1 {
+                font-size: 22px;
+            }
+
+            img {
+                margin: 20px 0;
+                width: 50%;
+            }
+            &.active{
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+
+        .et {
+            position: absolute;
+            top: 0;
+            left: 20%;
+opacity: 0;
+visibility: hidden;
+            width: 70%;
+
+            h1 {
+                margin-left: 15px;
+                font-size: 22px;
+            }
+
+            img {
+                margin: 20px 0;
+                width: 50%;
+            }
+            &.active{
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+
+        .pendir {
+            position: absolute;
+            top: 0;
+            left: 20%;
+            opacity: 0;
+            visibility: hidden;
+            width: 70%;
+
+            h1 {
+                margin-left: 12px;
+                font-size: 22px;
+            }
+
+            img {
+                margin: 20px 0;
+                width: 50%;
+            }
+            &.active{
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+
+        .edviyyat {
+            position: absolute;
+            top: 0;
+            left: 20%;
+            opacity: 0;
+            visibility: hidden;
+            width: 70%;
+
+            h1 {
+                font-size: 22px;
+            }
+
+            img {
+                margin: 20px 0;
+                width: 50%;
+            }
+            &.active{
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
+
+    .icon {
+        display: none;
+        width: 5%;
+    }
+
+    .pizza {
+        margin: 70px auto;
+        width: 58%;
+
+        img {
+            width: 90%;
+        }
+    }
+
+    .sag {
+        margin: 0 20px;
+        width: 16%;
+
+        img {
+            margin: 15px 10px;
+            width: 40%;
+        }
+    }
+}

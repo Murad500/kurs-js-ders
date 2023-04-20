@@ -1,0 +1,619 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* dkjndjfndhfjdbh */
+
+
+
+/* lmkmdkmkdv */
+body{
+    position: relative;
+    height: 100vh;
+}
+
+#gamearea{
+    position: relative;
+    z-index: 5;
+}
+
+.salt{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: 5;
+    top: 0;
+}
+
+.salt.hidden{
+    display: none;
+}
+
+.addsalt{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
+
+#area .addsalt {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+
+.mycontainer {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#area {
+    width: 600px;
+    height: 600px;
+    margin: 10px;
+    border-radius: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+    background-image: url('/img/pizza.jpg');
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: center;
+}
+
+#area .pomidor {
+    width: 100px;
+    height: 100px;
+    background-image: url('/img/pomidor.png');
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#area .zeytun {
+    width: 100px;
+    height: 100px;
+    background-image: url('/img/output-onlinepngtools.png');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#area .biberyasil {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-image: url('/img/biberyasil.png');
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+}
+
+#area .biberqirmizi {
+    width: 100px;
+    height: 100px;
+    background-image: url('/img/biberqirmizi.png');
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#area .gobelek {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-image: url('/img/gobelek.png');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+}
+
+#area .ananas {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-image: url('/img/ananas.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#area .sogan {
+    width: 100px;
+    height: 100px;
+    background-image: url('/img/sogantek.png');
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#area .sarimsaq {
+    width: 100px;
+    height: 100px;
+    background-image: url('/img/sarimsaqbas.png');
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+
+/* //////////////////////// */
+
+
+#area .meat {
+    width: 100px;
+    height: 100px;
+    background-image: url('/img/et.png');
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#area .toyuq {
+    width: 100px;
+    height: 100px;
+    background-image: url('/img/chicken-breast.png');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#area .kolbasaag {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-image: url('/img/kolbasa.png');
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: center;
+}
+
+#area .basdirma {
+    width: 100px;
+    height: 100px;
+    background-image: url('/img/basdirma.png');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#area .kolbasaqara {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-image: url('/img/kolbasa1.png');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+}
+
+#area .baliq {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-image: url('/img/baliq.png');
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+}
+
+#area .barbeku {
+    width: 100px;
+    height: 100px;
+    background-image: url('/img/barbeku.png');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#area .hindu {
+    width: 100px;
+    height: 100px;
+    background-image: url('/img/hindu.png');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+/* /////////////////////// */
+
+#area .duz {
+    width: 100px;
+    height: 100px;
+    background-image: url('/img/duz.png');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#area .istiotred {
+    width: 100px;
+    height: 100px;
+    background-image: url('/img/qirmiziistiot.png');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#area .keklik {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-image: url('/img/keklikotu.png');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
+
+#area .istiotblack {
+    width: 100px;
+    height: 100px;
+    background-image: url('/img/qaraistiot.png');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+/* ///////////////// */
+
+
+#place {
+    width: 40%;
+    margin: 10px;
+}
+
+#place .pomidor {
+    border: 2px solid #fff;
+    width: 25%;
+    height: 100px;
+    background-image: url('/img/pomidor\ tam.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+
+#place .zeytun {
+    border: 2px solid #fff;
+    width: 25%;
+    height: 100px;
+    background-image: url('/img/zeytuntam.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 65%;
+}
+
+#place .biberyasil {
+    border: 2px solid #fff;
+    width: 25%;
+    height: 100px;
+    background-image: url('/img/yasilbiber.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+
+#place .biberqirmizi {
+    border: 2px solid #fff;
+    width: 25%;
+    height: 100px;
+    background-image: url('/img/qirmizibiber.png');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
+
+#place .gobelek {
+    border: 2px solid #fff;
+    width: 25%;
+    height: 100px;
+    background-image: url('/img/gobelektam.png');
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: center;
+}
+
+#place .ananas {
+    border: 2px solid #fff;
+    width: 25%;
+    height: 100px;
+    background-image: url('/img/ananastam.png');
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: center;
+}
+
+#place .sogan {
+    border: 2px solid #fff;
+    width: 25%;
+    height: 100px;
+    background-image: url('/img/sogan.png');
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: center;
+}
+
+#place .sarimsaq {
+    border: 2px solid #fff;
+    width: 25%;
+    height: 100px;
+    background-image: url('/img/sarimsaq.png');
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: center;
+}
+
+/* ///////////////// */
+
+#place .meat {
+    border: 2px solid #fff;
+    width: 25%;
+    height: 100px;
+    background-image: url('/img/meat.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+
+#place .toyuq {
+    border: 2px solid #fff;
+    width: 25%;
+    height: 100px;
+    background-image: url('/img/toyuqsag.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 65%;
+}
+
+#place .kolbasaag {
+    border: 2px solid #fff;
+    width: 25%;
+    height: 100px;
+    background-image: url('/img/kolbasasag.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#place .basdirma {
+    border: 2px solid #fff;
+    width: 25%;
+    height: 100px;
+    background-image: url('/img/bacon.png');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
+
+#place .kolbasaqara {
+    border: 2px solid #fff;
+    width: 25%;
+    height: 100px;
+    background-image: url('/img/kolbasasag1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#place .baliq {
+    border: 2px solid #fff;
+    width: 25%;
+    height: 100px;
+    background-image: url('/img/fish.png');
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: center;
+}
+
+#place .barbeku {
+    border: 2px solid #fff;
+    width: 25%;
+    height: 100px;
+    background-image: url('/img/barbeku1.png');
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: center;
+}
+
+#place .hindu {
+    border: 2px solid #fff;
+    width: 25%;
+    height: 100px;
+    background-image: url('/img/hindusag.png');
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: center;
+}
+
+/* //////////////////// */
+
+#place .duz {
+    border: 2px solid #fff;
+    width: 25%;
+    height: 100px;
+    background-image: url('/img/duzsag.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+
+#place .istiotred {
+    border: 2px solid #fff;
+    width: 25%;
+    height: 100px;
+    background-image: url('/img/qirmizi.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 65%;
+}
+
+#place .keklik {
+    border: 2px solid #fff;
+    width: 25%;
+    height: 100px;
+    background-image: url('/img/keklikotuag.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+
+#place .istiotblack {
+    border: 2px solid #fff;
+    width: 25%;
+    height: 100px;
+    background-image: url('/img/pepper.png');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
+
+
+
+#mobile-tab .pomidor {
+    border: 2px solid #fff;
+    width: 20%;
+    height: 100px;
+    background-color: red;
+}
+
+#mobile-tab .zeytun {
+    border: 2px solid #fff;
+    width: 20%;
+    height: 100px;
+    background-color: blue;
+}
+
+#mobile-tab .biberyasil {
+    border: 2px solid #fff;
+    width: 20%;
+    height: 100px;
+    background-color: yellow;
+}
+
+#mobile-tab .biberqirmizi {
+    border: 2px solid #fff;
+    width: 20%;
+    height: 100px;
+    background-color: green;
+}
+
+#mobile-tab .bibersari {
+    border: 2px solid #fff;
+    width: 20%;
+    height: 100px;
+    background-color: cyan;
+}
+
+#mobile-tab .acibiber {
+    border: 2px solid #fff;
+    width: 20%;
+    height: 100px;
+    background-color: red;
+}
+
+#mobile-tab .gobelek {
+    border: 2px solid #fff;
+    width: 20%;
+    height: 100px;
+    background-color: blue;
+}
+
+#mobile-tab .ananas {
+    border: 2px solid #fff;
+    width: 20%;
+    height: 100px;
+    background-color: yellow;
+}
+
+#mobile-tab .sogan {
+    border: 2px solid #fff;
+    width: 20%;
+    height: 100px;
+    background-color: green;
+}
+
+#mobile-tab .meat {
+    border: 2px solid #fff;
+    width: 20%;
+    height: 100px;
+    background-color: cyan;
+}
+
+
+@media (max-width: 600px) {
+    #place {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: 20%;
+    }
+
+    .mycontainer {
+        width: 100%;
+        margin: auto;
+    }
+
+    #area {
+        width: 400px;
+        height: 400px;
+        margin: 10px;
+        border-radius: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+    }
+
+    #area .pomidor {
+        width: 50px;
+        height: 50px;
+        background-color: red;
+        position: absolute;
+        transform: translate(-50%, -50%);
+    }
+    #place .pomidor {
+        border: 2px solid #fff;
+        width: 25%;
+        height: 100px;
+        background-image: url('/img/pomidor\ tam.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 70%;
+    }
+}

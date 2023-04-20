@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#section {
+  margin-top: 60px;
+}
+#section .div {
+  border: 2px solid black;
+  width: 25%;
+  margin: auto;
+  min-height: 300px;
+  background-color: rgb(0, 145, 212);
+}
+#section .div .salam {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+}
+#section .div .salam h1 {
+  color: white;
+}
+#section .div .input {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+#section .div .input input {
+  padding: 20px;
+  width: 90%;
+  height: 38px;
+  border: none;
+}
+#section .div .input button {
+  border: none;
+  width: 10%;
+  padding: 10px;
+  background: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+#section .div .ul {
+  border: 2px solid red;
+  width: 90%;
+  margin: auto;
+}
+#section .div .ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 10px 20px;
+  list-style-type: none;
+  background: #eee;
+  font-size: 15px;
+  transition: 0.2s;
+}
+#section .div .ul .close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+#section .div .ul .checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+#section.support {
+  float: left;
+  background-color: black;
+}
+#section.user {
+  float: right;
+  background-color: gray;
+}/*# sourceMappingURL=style.css.map */

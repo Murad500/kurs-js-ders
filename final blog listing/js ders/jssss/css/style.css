@@ -1,0 +1,9 @@
+#accordion button {
+  width: 100%;
+}
+#accordion p {
+  display: none;
+}
+#accordion p.active {
+  display: block;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,3495 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#blog{
+    .one{
+        background-color: aquamarine;
+        padding: 10.2rem;
+        position: relative;
+        .soz{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50% ,-50%);
+            h1{
+                color: #072f60;
+                font-size: 46px;
+                line-height: 56px;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: 700;
+            }
+            p{
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: 500;
+                margin-left: 2px;
+                color: #3bbca7;
+                transition: 0.5s ease-in-out;
+                a{
+                    margin-left: 37px;
+                    text-decoration: none;
+                    color: #666666;
+                    display: inline-block;
+                    transition: 0.5s ease-in-out;
+                }
+                span{
+                    color: #666666;
+                }
+            }
+            &:hover{
+                a{
+                    color: #3bbca7;
+                }
+                p{
+                    color: #666666;
+                }
+            }
+        }
+    }
+    
+    .two{
+        margin-top: 50px;
+        background-color: #FDFDFD;
+        padding-top: 50px;
+        .boxes1{
+            .box1{
+                box-shadow: 0 0 5px;
+                border: none;
+                margin-bottom: 30px;
+                border-radius: 10px;
+                overflow: hidden;
+                .image{
+                    overflow: hidden;
+                    margin-bottom: 20px;
+                    position: relative;
+                    
+                    &::before{
+                        content: 'Lifestyle';
+                        position: absolute;
+                        background-color: #3bbca7;
+                        z-index: 9;
+                        top: 18%;
+                        font-size: 15px;
+                        left: 8%;
+                        color: white;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-weight: 600;
+                        padding: 5px 15px;
+                        border-radius: 8mm;
+                    }
+                    img{
+                        transition: 0.5s ease-in-out;
+                        transform: scale(1);
+                        width: 100%;
+                        &:hover{
+                            transform: scale(1.1);
+                        }
+                    }
+                    
+                }
+                    .span1,.span2{
+                        color: #666666;
+                        display: inline-block;
+                        transition: 0.3s ease-in-out;
+                        i{
+                            color: #3bbca7;
+                            margin: 0 5px;
+                        }
+                        &:hover{
+                            color: #3bbca7;
+                        }
+                    }
+                    .span2{
+                        margin-left: 10px;
+                    }
+                    .h1{
+                        color: #072f60;
+                        margin-top: 20px;
+                        display: inline-block;
+                        text-decoration: none;
+                        font-size: 22px;
+                        line-height: 32px;
+                        font-weight: 600;
+                        transition: 0.3s ease-in-out;
+                        &:hover{
+                            color: #3bbca7;
+                        }
+    
+                    }
+                    .h2{
+                        font-size: 14px;
+                        color: #3bbca7;
+                        margin: 15px 0 28px 0;
+                        display: inline-block;
+                        text-decoration: none;
+                        position: relative;
+                        &::before{
+                            content: '';
+                            position: absolute;
+                            left: 25%;
+                            width: 50%;
+                            background-color: #3bbca7;
+                            height: 2px;
+                            top: 100%;
+                            border-radius: 8mm;
+                            opacity: 0;
+                            visibility: hidden;
+                            transition: 2s ease-in-out;
+                        }
+                        &::after{
+                            content: '';
+                            position: absolute;
+                            left: 25%;
+                            width: 50%;
+                            background-color: #3bbca7;
+                            height: 2px;
+                            top: 100%;
+                            border-radius: 8mm;
+                            opacity: 0;
+                            visibility: hidden;
+                            transition: 2s ease-in-out;
+                        }
+                        &:hover{
+                            &::before{
+                                left: 0;
+                                opacity: 1;
+                                visibility: visible;
+                            }
+                            &::after{
+                                left: 50%;
+                                opacity: 1;
+                                visibility: visible;
+                            }
+                        }
+                    }
+            }
+        }
+        .boxes2{
+            .box1{
+                box-shadow: 0 0 5px;
+                border: none;
+                margin-bottom: 30px;
+                border-radius: 10px;
+                overflow: hidden;
+                .image{
+                    overflow: hidden;
+                    margin-bottom: 20px;
+                    position: relative;
+                    
+                    &::before{
+                        content: 'Lifestyle';
+                        position: absolute;
+                        background-color: #3bbca7;
+                        z-index: 9;
+                        top: 18%;
+                        font-size: 15px;
+                        left: 8%;
+                        color: white;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-weight: 600;
+                        padding: 5px 15px;
+                        border-radius: 8mm;
+                    }
+                    img{
+                        transition: 0.5s ease-in-out;
+                        transform: scale(1);
+                        width: 100%;
+                        &:hover{
+                            transform: scale(1.1);
+                        }
+                    }
+                    
+                }
+                    .span1,.span2{
+                        color: #666666;
+                        display: inline-block;
+                        transition: 0.3s ease-in-out;
+                        i{
+                            color: #3bbca7;
+                            margin: 0 5px;
+                        }
+                        &:hover{
+                            color: #3bbca7;
+                        }
+                    }
+                    .span2{
+                        margin-left: 10px;
+                    }
+                    .h1{
+                        color: #072f60;
+                        margin-top: 20px;
+                        display: inline-block;
+                        text-decoration: none;
+                        font-size: 22px;
+                        line-height: 32px;
+                        font-weight: 600;
+                        transition: 0.3s ease-in-out;
+                        &:hover{
+                            color: #3bbca7;
+                        }
+    
+                    }
+                    .h2{
+                        font-size: 14px;
+                        color: #3bbca7;
+                        margin: 15px 0 28px 0;
+                        display: inline-block;
+                        text-decoration: none;
+                        position: relative;
+                        &::before{
+                            content: '';
+                            position: absolute;
+                            left: 25%;
+                            width: 50%;
+                            background-color: #3bbca7;
+                            height: 2px;
+                            top: 100%;
+                            border-radius: 8mm;
+                            opacity: 0;
+                            visibility: hidden;
+                            transition: 2s ease-in-out;
+                        }
+                        &::after{
+                            content: '';
+                            position: absolute;
+                            left: 25%;
+                            width: 50%;
+                            background-color: #3bbca7;
+                            height: 2px;
+                            top: 100%;
+                            border-radius: 8mm;
+                            opacity: 0;
+                            visibility: hidden;
+                            transition: 2s ease-in-out;
+                        }
+                        &:hover{
+                            &::before{
+                                left: 0;
+                                opacity: 1;
+                                visibility: visible;
+                            }
+                            &::after{
+                                left: 50%;
+                                opacity: 1;
+                                visibility: visible;
+                            }
+                        }
+                    }
+            }
+        }
+        .boxes3{
+            .box1{
+                box-shadow: 0 0 5px;
+                border: none;
+                margin-bottom: 30px;
+                border-radius: 10px;
+                overflow: hidden;
+                .image{
+                    overflow: hidden;
+                    margin-bottom: 20px;
+                    position: relative;
+                    
+                    &::before{
+                        content: 'Learning';
+                        position: absolute;
+                        background-color: #3bbca7;
+                        z-index: 9;
+                        top: 18%;
+                        font-size: 15px;
+                        left: 8%;
+                        color: white;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-weight: 600;
+                        padding: 5px 15px;
+                        border-radius: 8mm;
+                    }
+                    img{
+                        transition: 0.5s ease-in-out;
+                        transform: scale(1);
+                        width: 100%;
+                        &:hover{
+                            transform: scale(1.1);
+                        }
+                    }
+                    
+                }
+                    .span1,.span2{
+                        color: #666666;
+                        display: inline-block;
+                        transition: 0.3s ease-in-out;
+                        i{
+                            color: #3bbca7;
+                            margin: 0 5px;
+                        }
+                        &:hover{
+                            color: #3bbca7;
+                        }
+                    }
+                    .span2{
+                        margin-left: 10px;
+                    }
+                    .h1{
+                        color: #072f60;
+                        margin-top: 20px;
+                        display: inline-block;
+                        text-decoration: none;
+                        font-size: 22px;
+                        line-height: 32px;
+                        font-weight: 600;
+                        transition: 0.3s ease-in-out;
+                        &:hover{
+                            color: #3bbca7;
+                        }
+    
+                    }
+                    .h2{
+                        font-size: 14px;
+                        color: #3bbca7;
+                        margin: 15px 0 28px 0;
+                        display: inline-block;
+                        text-decoration: none;
+                        position: relative;
+                        &::before{
+                            content: '';
+                            position: absolute;
+                            left: 25%;
+                            width: 50%;
+                            background-color: #3bbca7;
+                            height: 2px;
+                            top: 100%;
+                            border-radius: 8mm;
+                            opacity: 0;
+                            visibility: hidden;
+                            transition: 2s ease-in-out;
+                        }
+                        &::after{
+                            content: '';
+                            position: absolute;
+                            left: 25%;
+                            width: 50%;
+                            background-color: #3bbca7;
+                            height: 2px;
+                            top: 100%;
+                            border-radius: 8mm;
+                            opacity: 0;
+                            visibility: hidden;
+                            transition: 2s ease-in-out;
+                        }
+                        &:hover{
+                            &::before{
+                                left: 0;
+                                opacity: 1;
+                                visibility: visible;
+                            }
+                            &::after{
+                                left: 50%;
+                                opacity: 1;
+                                visibility: visible;
+                            }
+                        }
+                    }
+            }
+        }
+        .boxes4{
+            .box1{
+                box-shadow: 0 0 5px;
+                border: none;
+                margin-bottom: 30px;
+                border-radius: 10px;
+                overflow: hidden;
+                .image{
+                    overflow: hidden;
+                    margin-bottom: 20px;
+                    position: relative;
+                    
+                    &::before{
+                        content: 'Science';
+                        position: absolute;
+                        background-color: #3bbca7;
+                        z-index: 9;
+                        top: 18%;
+                        font-size: 15px;
+                        left: 8%;
+                        color: white;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-weight: 600;
+                        padding: 5px 15px;
+                        border-radius: 8mm;
+                    }
+                    img{
+                        transition: 0.5s ease-in-out;
+                        transform: scale(1);
+                        width: 100%;
+                        &:hover{
+                            transform: scale(1.1);
+                        }
+                    }
+                    
+                }
+                    .span1,.span2{
+                        color: #666666;
+                        display: inline-block;
+                        transition: 0.3s ease-in-out;
+                        i{
+                            color: #3bbca7;
+                            margin: 0 5px;
+                        }
+                        &:hover{
+                            color: #3bbca7;
+                        }
+                    }
+                    .span2{
+                        margin-left: 10px;
+                    }
+                    .h1{
+                        color: #072f60;
+                        margin-top: 20px;
+                        display: inline-block;
+                        text-decoration: none;
+                        font-size: 22px;
+                        line-height: 32px;
+                        font-weight: 600;
+                        transition: 0.3s ease-in-out;
+                        &:hover{
+                            color: #3bbca7;
+                        }
+    
+                    }
+                    .h2{
+                        font-size: 14px;
+                        color: #3bbca7;
+                        margin: 15px 0 28px 0;
+                        display: inline-block;
+                        text-decoration: none;
+                        position: relative;
+                        &::before{
+                            content: '';
+                            position: absolute;
+                            left: 25%;
+                            width: 50%;
+                            background-color: #3bbca7;
+                            height: 2px;
+                            top: 100%;
+                            border-radius: 8mm;
+                            opacity: 0;
+                            visibility: hidden;
+                            transition: 2s ease-in-out;
+                        }
+                        &::after{
+                            content: '';
+                            position: absolute;
+                            left: 25%;
+                            width: 50%;
+                            background-color: #3bbca7;
+                            height: 2px;
+                            top: 100%;
+                            border-radius: 8mm;
+                            opacity: 0;
+                            visibility: hidden;
+                            transition: 2s ease-in-out;
+                        }
+                        &:hover{
+                            &::before{
+                                left: 0;
+                                opacity: 1;
+                                visibility: visible;
+                            }
+                            &::after{
+                                left: 50%;
+                                opacity: 1;
+                                visibility: visible;
+                            }
+                        }
+                    }
+            }
+        }
+        .boxes5{
+            .box1{
+                box-shadow: 0 0 5px;
+                border: none;
+                margin-bottom: 30px;
+                border-radius: 10px;
+                overflow: hidden;
+                .image{
+                    overflow: hidden;
+                    margin-bottom: 20px;
+                    position: relative;
+                    
+                    &::before{
+                        content: 'Health';
+                        position: absolute;
+                        background-color: #3bbca7;
+                        z-index: 9;
+                        top: 18%;
+                        font-size: 15px;
+                        left: 8%;
+                        color: white;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-weight: 600;
+                        padding: 5px 15px;
+                        border-radius: 8mm;
+                    }
+                    img{
+                        transition: 0.5s ease-in-out;
+                        transform: scale(1);
+                        width: 100%;
+                        &:hover{
+                            transform: scale(1.1);
+                        }
+                    }
+                    
+                }
+                    .span1,.span2{
+                        color: #666666;
+                        display: inline-block;
+                        transition: 0.3s ease-in-out;
+                        i{
+                            color: #3bbca7;
+                            margin: 0 5px;
+                        }
+                        &:hover{
+                            color: #3bbca7;
+                        }
+                    }
+                    .span2{
+                        margin-left: 10px;
+                    }
+                    .h1{
+                        color: #072f60;
+                        margin-top: 20px;
+                        display: inline-block;
+                        text-decoration: none;
+                        font-size: 22px;
+                        line-height: 32px;
+                        font-weight: 600;
+                        transition: 0.3s ease-in-out;
+                        &:hover{
+                            color: #3bbca7;
+                        }
+    
+                    }
+                    .h2{
+                        font-size: 14px;
+                        color: #3bbca7;
+                        margin: 15px 0 28px 0;
+                        display: inline-block;
+                        text-decoration: none;
+                        position: relative;
+                        &::before{
+                            content: '';
+                            position: absolute;
+                            left: 25%;
+                            width: 50%;
+                            background-color: #3bbca7;
+                            height: 2px;
+                            top: 100%;
+                            border-radius: 8mm;
+                            opacity: 0;
+                            visibility: hidden;
+                            transition: 2s ease-in-out;
+                        }
+                        &::after{
+                            content: '';
+                            position: absolute;
+                            left: 25%;
+                            width: 50%;
+                            background-color: #3bbca7;
+                            height: 2px;
+                            top: 100%;
+                            border-radius: 8mm;
+                            opacity: 0;
+                            visibility: hidden;
+                            transition: 2s ease-in-out;
+                        }
+                        &:hover{
+                            &::before{
+                                left: 0;
+                                opacity: 1;
+                                visibility: visible;
+                            }
+                            &::after{
+                                left: 50%;
+                                opacity: 1;
+                                visibility: visible;
+                            }
+                        }
+                    }
+            }
+        }
+        .boxes6{
+            .box1{
+                box-shadow: 0 0 5px;
+                border: none;
+                margin-bottom: 30px;
+                border-radius: 10px;
+                overflow: hidden;
+                .image{
+                    overflow: hidden;
+                    margin-bottom: 20px;
+                    position: relative;
+                    
+                    &::before{
+                        content: 'Lifestyle';
+                        position: absolute;
+                        background-color: #3bbca7;
+                        z-index: 9;
+                        top: 18%;
+                        font-size: 15px;
+                        left: 8%;
+                        color: white;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-weight: 600;
+                        padding: 5px 15px;
+                        border-radius: 8mm;
+                    }
+                    img{
+                        transition: 0.5s ease-in-out;
+                        transform: scale(1);
+                        width: 100%;
+                        &:hover{
+                            transform: scale(1.1);
+                        }
+                    }
+                    
+                }
+                    .span1,.span2{
+                        color: #666666;
+                        display: inline-block;
+                        transition: 0.3s ease-in-out;
+                        i{
+                            color: #3bbca7;
+                            margin: 0 5px;
+                        }
+                        &:hover{
+                            color: #3bbca7;
+                        }
+                    }
+                    .span2{
+                        margin-left: 10px;
+                    }
+                    .h1{
+                        color: #072f60;
+                        margin-top: 20px;
+                        display: inline-block;
+                        text-decoration: none;
+                        font-size: 22px;
+                        line-height: 32px;
+                        font-weight: 600;
+                        transition: 0.3s ease-in-out;
+                        &:hover{
+                            color: #3bbca7;
+                        }
+    
+                    }
+                    .h2{
+                        font-size: 14px;
+                        color: #3bbca7;
+                        margin: 15px 0 28px 0;
+                        display: inline-block;
+                        text-decoration: none;
+                        position: relative;
+                        &::before{
+                            content: '';
+                            position: absolute;
+                            left: 25%;
+                            width: 50%;
+                            background-color: #3bbca7;
+                            height: 2px;
+                            top: 100%;
+                            border-radius: 8mm;
+                            opacity: 0;
+                            visibility: hidden;
+                            transition: 2s ease-in-out;
+                        }
+                        &::after{
+                            content: '';
+                            position: absolute;
+                            left: 25%;
+                            width: 50%;
+                            background-color: #3bbca7;
+                            height: 2px;
+                            top: 100%;
+                            border-radius: 8mm;
+                            opacity: 0;
+                            visibility: hidden;
+                            transition: 2s ease-in-out;
+                        }
+                        &:hover{
+                            &::before{
+                                left: 0;
+                                opacity: 1;
+                                visibility: visible;
+                            }
+                            &::after{
+                                left: 50%;
+                                opacity: 1;
+                                visibility: visible;
+                            }
+                        }
+                    }
+            }
+        }
+        .boxes7{
+            .box1{
+                box-shadow: 0 0 5px;
+                border: none;
+                margin-bottom: 30px;
+                border-radius: 10px;
+                overflow: hidden;
+                .image{
+                    overflow: hidden;
+                    margin-bottom: 20px;
+                    position: relative;
+                    
+                    &::before{
+                        content: 'Learning';
+                        position: absolute;
+                        background-color: #3bbca7;
+                        z-index: 9;
+                        top: 18%;
+                        font-size: 15px;
+                        left: 8%;
+                        color: white;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-weight: 600;
+                        padding: 5px 15px;
+                        border-radius: 8mm;
+                    }
+                    img{
+                        transition: 0.5s ease-in-out;
+                        transform: scale(1);
+                        width: 100%;
+                        &:hover{
+                            transform: scale(1.1);
+                        }
+                    }
+                    
+                }
+                    .span1,.span2{
+                        color: #666666;
+                        display: inline-block;
+                        transition: 0.3s ease-in-out;
+                        i{
+                            color: #3bbca7;
+                            margin: 0 5px;
+                        }
+                        &:hover{
+                            color: #3bbca7;
+                        }
+                    }
+                    .span2{
+                        margin-left: 10px;
+                    }
+                    .h1{
+                        color: #072f60;
+                        margin-top: 20px;
+                        display: inline-block;
+                        text-decoration: none;
+                        font-size: 22px;
+                        line-height: 32px;
+                        font-weight: 600;
+                        transition: 0.3s ease-in-out;
+                        &:hover{
+                            color: #3bbca7;
+                        }
+    
+                    }
+                    .h2{
+                        font-size: 14px;
+                        color: #3bbca7;
+                        margin: 15px 0 28px 0;
+                        display: inline-block;
+                        text-decoration: none;
+                        position: relative;
+                        &::before{
+                            content: '';
+                            position: absolute;
+                            left: 25%;
+                            width: 50%;
+                            background-color: #3bbca7;
+                            height: 2px;
+                            top: 100%;
+                            border-radius: 8mm;
+                            opacity: 0;
+                            visibility: hidden;
+                            transition: 2s ease-in-out;
+                        }
+                        &::after{
+                            content: '';
+                            position: absolute;
+                            left: 25%;
+                            width: 50%;
+                            background-color: #3bbca7;
+                            height: 2px;
+                            top: 100%;
+                            border-radius: 8mm;
+                            opacity: 0;
+                            visibility: hidden;
+                            transition: 2s ease-in-out;
+                        }
+                        &:hover{
+                            &::before{
+                                left: 0;
+                                opacity: 1;
+                                visibility: visible;
+                            }
+                            &::after{
+                                left: 50%;
+                                opacity: 1;
+                                visibility: visible;
+                            }
+                        }
+                    }
+            }
+        }
+        .boxes8{
+            .box1{
+                box-shadow: 0 0 5px;
+                border: none;
+                margin-bottom: 30px;
+                border-radius: 10px;
+                overflow: hidden;
+                .image{
+                    overflow: hidden;
+                    margin-bottom: 20px;
+                    position: relative;
+                    
+                    &::before{
+                        content: 'Learning';
+                        position: absolute;
+                        background-color: #3bbca7;
+                        z-index: 9;
+                        top: 18%;
+                        font-size: 15px;
+                        left: 8%;
+                        color: white;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-weight: 600;
+                        padding: 5px 15px;
+                        border-radius: 8mm;
+                    }
+                    img{
+                        transition: 0.5s ease-in-out;
+                        transform: scale(1);
+                        width: 100%;
+                        &:hover{
+                            transform: scale(1.1);
+                        }
+                    }
+                    
+                }
+                    .span1,.span2{
+                        color: #666666;
+                        display: inline-block;
+                        transition: 0.3s ease-in-out;
+                        i{
+                            color: #3bbca7;
+                            margin: 0 5px;
+                        }
+                        &:hover{
+                            color: #3bbca7;
+                        }
+                    }
+                    .span2{
+                        margin-left: 10px;
+                    }
+                    .h1{
+                        color: #072f60;
+                        margin-top: 20px;
+                        display: inline-block;
+                        text-decoration: none;
+                        font-size: 22px;
+                        line-height: 32px;
+                        font-weight: 600;
+                        transition: 0.3s ease-in-out;
+                        &:hover{
+                            color: #3bbca7;
+                        }
+    
+                    }
+                    .h2{
+                        font-size: 14px;
+                        color: #3bbca7;
+                        margin: 15px 0 28px 0;
+                        display: inline-block;
+                        text-decoration: none;
+                        position: relative;
+                        &::before{
+                            content: '';
+                            position: absolute;
+                            left: 25%;
+                            width: 50%;
+                            background-color: #3bbca7;
+                            height: 2px;
+                            top: 100%;
+                            border-radius: 8mm;
+                            opacity: 0;
+                            visibility: hidden;
+                            transition: 2s ease-in-out;
+                        }
+                        &::after{
+                            content: '';
+                            position: absolute;
+                            left: 25%;
+                            width: 50%;
+                            background-color: #3bbca7;
+                            height: 2px;
+                            top: 100%;
+                            border-radius: 8mm;
+                            opacity: 0;
+                            visibility: hidden;
+                            transition: 2s ease-in-out;
+                        }
+                        &:hover{
+                            &::before{
+                                left: 0;
+                                opacity: 1;
+                                visibility: visible;
+                            }
+                            &::after{
+                                left: 50%;
+                                opacity: 1;
+                                visibility: visible;
+                            }
+                        }
+                    }
+            }
+        }
+        .boxes9{
+            .box1{
+                box-shadow: 0 0 5px;
+                border: none;
+                margin-bottom: 30px;
+                border-radius: 10px;
+                overflow: hidden;
+                .image{
+                    overflow: hidden;
+                    margin-bottom: 20px;
+                    position: relative;
+                    
+                    &::before{
+                        content: 'Finance';
+                        position: absolute;
+                        background-color: #3bbca7;
+                        z-index: 9;
+                        top: 18%;
+                        font-size: 15px;
+                        left: 8%;
+                        color: white;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-weight: 600;
+                        padding: 5px 15px;
+                        border-radius: 8mm;
+                    }
+                    img{
+                        transition: 0.5s ease-in-out;
+                        transform: scale(1);
+                        width: 100%;
+                        &:hover{
+                            transform: scale(1.1);
+                        }
+                    }
+                    
+                }
+                    .span1,.span2{
+                        color: #666666;
+                        display: inline-block;
+                        transition: 0.3s ease-in-out;
+                        i{
+                            color: #3bbca7;
+                            margin: 0 5px;
+                        }
+                        &:hover{
+                            color: #3bbca7;
+                        }
+                    }
+                    .span2{
+                        margin-left: 10px;
+                    }
+                    .h1{
+                        color: #072f60;
+                        margin-top: 20px;
+                        display: inline-block;
+                        text-decoration: none;
+                        font-size: 22px;
+                        line-height: 32px;
+                        font-weight: 600;
+                        transition: 0.3s ease-in-out;
+                        &:hover{
+                            color: #3bbca7;
+                        }
+    
+                    }
+                    .h2{
+                        font-size: 14px;
+                        color: #3bbca7;
+                        margin: 15px 0 28px 0;
+                        display: inline-block;
+                        text-decoration: none;
+                        position: relative;
+                        &::before{
+                            content: '';
+                            position: absolute;
+                            left: 25%;
+                            width: 50%;
+                            background-color: #3bbca7;
+                            height: 2px;
+                            top: 100%;
+                            border-radius: 8mm;
+                            opacity: 0;
+                            visibility: hidden;
+                            transition: 2s ease-in-out;
+                        }
+                        &::after{
+                            content: '';
+                            position: absolute;
+                            left: 25%;
+                            width: 50%;
+                            background-color: #3bbca7;
+                            height: 2px;
+                            top: 100%;
+                            border-radius: 8mm;
+                            opacity: 0;
+                            visibility: hidden;
+                            transition: 2s ease-in-out;
+                        }
+                        &:hover{
+                            &::before{
+                                left: 0;
+                                opacity: 1;
+                                visibility: visible;
+                            }
+                            &::after{
+                                left: 50%;
+                                opacity: 1;
+                                visibility: visible;
+                            }
+                        }
+                    }
+            }
+        }
+    }
+
+    .three{
+        position: relative;
+        width: 100%;
+        padding: 4rem;
+        
+        p{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50% ,-50%);
+
+            span{
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: bolder;
+                color: white;
+                background-color: #3bbca7;
+                padding: 10px 15px;
+                border-radius: 100%;
+            }
+            .a{
+                background-color: white;
+                text-decoration: none;
+                margin-left: 20px;
+                color: #666666;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: bolder;
+                transition: 0.3s ease-in-out;
+                
+                &:hover{
+                    color: #3bbca7;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:576px) {
+    #blog{
+        .one{
+            background-color: aquamarine;
+            padding: 6.7rem;
+            position: relative;
+            .soz{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50% ,-50%);
+                h1{
+                    color: #072f60;
+                    font-size: 32px;
+                    line-height: 56px;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: 700;
+                }
+                p{
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: 500;
+                    font-size: 15px;
+                    margin-left: 2px;
+                    color: #3bbca7;
+                    transition: 0.5s ease-in-out;
+                    a{
+                        margin-left: 10px;
+                        text-decoration: none;
+                        color: #666666;
+                        font-size: 15px;
+                        display: inline-block;
+                        transition: 0.5s ease-in-out;
+                    }
+                    span{
+                        color: #666666;
+                    }
+                }
+                &:hover{
+                    a{
+                        color: #3bbca7;
+                    }
+                    p{
+                        color: #666666;
+                    }
+                }
+            }
+        }
+            .three{
+        position: relative;
+        width: 100%;
+        padding: 4rem;
+        
+        p{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50% ,-50%);
+
+            span{
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: bolder;
+                color: white;
+                background-color: #3bbca7;
+                padding: 10px 15px;
+                border-radius: 100%;
+            }
+            .a{
+                text-decoration: none;
+                margin-left: 10px;
+                color: #666666;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: bolder;
+                transition: 0.3s ease-in-out;
+                
+                &:hover{
+                    color: #3bbca7;
+                }
+            }
+        }
+    }
+    }
+}
+
+@media (min-width:576px) and (max-width:768px) {
+    #blog{
+        .one{
+            background-color: aquamarine;
+            padding: 6.7rem;
+            position: relative;
+            .soz{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50% ,-50%);
+                h1{
+                    color: #072f60;
+                    font-size: 32px;
+                    line-height: 56px;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: 700;
+                }
+                p{
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: 500;
+                    font-size: 15px;
+                    margin-left: 2px;
+                    color: #3bbca7;
+                    transition: 0.5s ease-in-out;
+                    a{
+                        margin-left: 10px;
+                        text-decoration: none;
+                        color: #666666;
+                        font-size: 15px;
+                        display: inline-block;
+                        transition: 0.5s ease-in-out;
+                    }
+                    span{
+                        color: #666666;
+                    }
+                }
+                &:hover{
+                    a{
+                        color: #3bbca7;
+                    }
+                    p{
+                        color: #666666;
+                    }
+                }
+            }
+        }
+        .three{
+            position: relative;
+            width: 100%;
+            padding: 4rem;
+            
+            p{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50% ,-50%);
+    
+                span{
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: bolder;
+                    color: white;
+                    background-color: #3bbca7;
+                    padding: 10px 15px;
+                    border-radius: 100%;
+                }
+                .a{
+                    text-decoration: none;
+                    margin-left: 10px;
+                    color: #666666;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: bolder;
+                    transition: 0.3s ease-in-out;
+                    
+                    &:hover{
+                        color: #3bbca7;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    #blog{
+        .one{
+            background-color: aquamarine;
+            padding: 6.7rem;
+            position: relative;
+            .soz{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50% ,-50%);
+                h1{
+                    color: #072f60;
+                    font-size: 32px;
+                    line-height: 56px;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: 700;
+                }
+                p{
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: 500;
+                    font-size: 15px;
+                    margin-left: 2px;
+                    color: #3bbca7;
+                    transition: 0.5s ease-in-out;
+                    a{
+                        margin-left: 10px;
+                        text-decoration: none;
+                        color: #666666;
+                        font-size: 15px;
+                        display: inline-block;
+                        transition: 0.5s ease-in-out;
+                    }
+                    span{
+                        color: #666666;
+                    }
+                }
+                &:hover{
+                    a{
+                        color: #3bbca7;
+                    }
+                    p{
+                        color: #666666;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:992px) and (max-width:1072px) {
+    #blog{
+        .one{
+            background-color: aquamarine;
+            padding: 6.7rem;
+            position: relative;
+            .soz{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50% ,-50%);
+                h1{
+                    color: #072f60;
+                    font-size: 32px;
+                    line-height: 56px;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: 700;
+                }
+                p{
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: 500;
+                    font-size: 15px;
+                    margin-left: 2px;
+                    color: #3bbca7;
+                    transition: 0.5s ease-in-out;
+                    a{
+                        margin-left: 10px;
+                        text-decoration: none;
+                        color: #666666;
+                        font-size: 15px;
+                        display: inline-block;
+                        transition: 0.5s ease-in-out;
+                    }
+                    span{
+                        color: #666666;
+                    }
+                }
+                &:hover{
+                    a{
+                        color: #3bbca7;
+                    }
+                    p{
+                        color: #666666;
+                    }
+                }
+            }
+        }
+        .two{
+            margin-top: 100px;
+            .boxes1{
+                .box1{
+                    box-shadow: 0 0 5px;
+                    border: none;
+                    margin-bottom: 30px;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    .image{
+                        overflow: hidden;
+                        margin-bottom: 20px;
+                        position: relative;
+                        
+                        &::before{
+                            content: 'Lifestyle';
+                            position: absolute;
+                            background-color: #3bbca7;
+                            z-index: 9;
+                            top: 18%;
+                            font-size: 15px;
+                            left: 8%;
+                            color: white;
+                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            font-weight: 600;
+                            padding: 5px 15px;
+                            border-radius: 8mm;
+                        }
+                        img{
+                            transition: 0.5s ease-in-out;
+                            transform: scale(1);
+                            width: 100%;
+                            &:hover{
+                                transform: scale(1.1);
+                            }
+                        }
+                        
+                    }
+                        .span1,.span2{
+                            color: #666666;
+                            display: inline-block;
+                            transition: 0.3s ease-in-out;
+                            font-size: 15px;
+                            i{
+                                color: #3bbca7;
+                                margin: 0 5px;
+                            }
+                            &:hover{
+                                color: #3bbca7;
+                            }
+                        }
+                        .span2{
+                            margin-left: 10px;
+                        }
+                        .h1{
+                            color: #072f60;
+                            margin-top: 20px;
+                            display: inline-block;
+                            text-decoration: none;
+                            font-size: 20px;
+                            line-height: 32px;
+                            font-weight: 600;
+                            transition: 0.3s ease-in-out;
+                            &:hover{
+                                color: #3bbca7;
+                            }
+        
+                        }
+                        .h2{
+                            font-size: 14px;
+                            color: #3bbca7;
+                            margin: 15px 0 28px 0;
+                            display: inline-block;
+                            text-decoration: none;
+                            position: relative;
+                            &::before{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &::after{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &:hover{
+                                &::before{
+                                    left: 0;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                                &::after{
+                                    left: 50%;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                            }
+                        }
+                }
+            }
+            .boxes2{
+                .box1{
+                    box-shadow: 0 0 5px;
+                    border: none;
+                    margin-bottom: 30px;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    .image{
+                        overflow: hidden;
+                        margin-bottom: 20px;
+                        position: relative;
+                        
+                        &::before{
+                            content: 'Lifestyle';
+                            position: absolute;
+                            background-color: #3bbca7;
+                            z-index: 9;
+                            top: 18%;
+                            font-size: 15px;
+                            left: 8%;
+                            color: white;
+                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            font-weight: 600;
+                            padding: 5px 15px;
+                            border-radius: 8mm;
+                        }
+                        img{
+                            transition: 0.5s ease-in-out;
+                            transform: scale(1);
+                            width: 100%;
+                            &:hover{
+                                transform: scale(1.1);
+                            }
+                        }
+                        
+                    }
+                        .span1,.span2{
+                            font-size: 15px;
+                            color: #666666;
+                            display: inline-block;
+                            transition: 0.3s ease-in-out;
+                            i{
+                                color: #3bbca7;
+                                margin: 0 5px;
+                            }
+                            &:hover{
+                                color: #3bbca7;
+                            }
+                        }
+                        .span2{
+                            margin-left: 10px;
+                        }
+                        .h1{
+                            color: #072f60;
+                            margin-top: 20px;
+                            display: inline-block;
+                            text-decoration: none;
+                            font-size: 20px;
+                            line-height: 32px;
+                            font-weight: 600;
+                            transition: 0.3s ease-in-out;
+                            &:hover{
+                                color: #3bbca7;
+                            }
+        
+                        }
+                        .h2{
+                            font-size: 14px;
+                            color: #3bbca7;
+                            margin: 15px 0 28px 0;
+                            display: inline-block;
+                            text-decoration: none;
+                            position: relative;
+                            &::before{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &::after{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &:hover{
+                                &::before{
+                                    left: 0;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                                &::after{
+                                    left: 50%;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                            }
+                        }
+                }
+            }
+            .boxes3{
+                .box1{
+                    box-shadow: 0 0 5px;
+                    border: none;
+                    margin-bottom: 30px;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    .image{
+                        overflow: hidden;
+                        margin-bottom: 20px;
+                        position: relative;
+                        
+                        &::before{
+                            content: 'Learning';
+                            position: absolute;
+                            background-color: #3bbca7;
+                            z-index: 9;
+                            top: 18%;
+                            font-size: 15px;
+                            left: 8%;
+                            color: white;
+                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            font-weight: 600;
+                            padding: 5px 15px;
+                            border-radius: 8mm;
+                        }
+                        img{
+                            transition: 0.5s ease-in-out;
+                            transform: scale(1);
+                            width: 100%;
+                            &:hover{
+                                transform: scale(1.1);
+                            }
+                        }
+                        
+                    }
+                        .span1,.span2{
+                            color: #666666;
+                            display: inline-block;
+                            font-size: 15px;
+                            transition: 0.3s ease-in-out;
+                            i{
+                                color: #3bbca7;
+                                margin: 0 5px;
+                            }
+                            &:hover{
+                                color: #3bbca7;
+                            }
+                        }
+                        .span2{
+                            margin-left: 10px;
+                        }
+                        .h1{
+                            color: #072f60;
+                            margin-top: 20px;
+                            display: inline-block;
+                            text-decoration: none;
+                            font-size: 20px;
+                            line-height: 32px;
+                            font-weight: 600;
+                            transition: 0.3s ease-in-out;
+                            &:hover{
+                                color: #3bbca7;
+                            }
+        
+                        }
+                        .h2{
+                            font-size: 14px;
+                            color: #3bbca7;
+                            margin: 15px 0 28px 0;
+                            display: inline-block;
+                            text-decoration: none;
+                            position: relative;
+                            &::before{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &::after{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &:hover{
+                                &::before{
+                                    left: 0;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                                &::after{
+                                    left: 50%;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                            }
+                        }
+                }
+            }
+            .boxes4{
+                .box1{
+                    box-shadow: 0 0 5px;
+                    border: none;
+                    margin-bottom: 30px;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    .image{
+                        overflow: hidden;
+                        margin-bottom: 20px;
+                        position: relative;
+                        
+                        &::before{
+                            content: 'Science';
+                            position: absolute;
+                            background-color: #3bbca7;
+                            z-index: 9;
+                            top: 18%;
+                            font-size: 15px;
+                            left: 8%;
+                            color: white;
+                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            font-weight: 600;
+                            padding: 5px 15px;
+                            border-radius: 8mm;
+                        }
+                        img{
+                            transition: 0.5s ease-in-out;
+                            transform: scale(1);
+                            width: 100%;
+                            &:hover{
+                                transform: scale(1.1);
+                            }
+                        }
+                        
+                    }
+                        .span1,.span2{
+                            font-size: 15px;
+                            color: #666666;
+                            display: inline-block;
+                            transition: 0.3s ease-in-out;
+                            i{
+                                color: #3bbca7;
+                                margin: 0 5px;
+                            }
+                            &:hover{
+                                color: #3bbca7;
+                            }
+                        }
+                        .span2{
+                            margin-left: 10px;
+                        }
+                        .h1{
+                            color: #072f60;
+                            margin-top: 20px;
+                            display: inline-block;
+                            text-decoration: none;
+                            font-size: 20px;
+                            line-height: 32px;
+                            font-weight: 600;
+                            transition: 0.3s ease-in-out;
+                            &:hover{
+                                color: #3bbca7;
+                            }
+        
+                        }
+                        .h2{
+                            font-size: 14px;
+                            color: #3bbca7;
+                            margin: 15px 0 28px 0;
+                            display: inline-block;
+                            text-decoration: none;
+                            position: relative;
+                            &::before{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &::after{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &:hover{
+                                &::before{
+                                    left: 0;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                                &::after{
+                                    left: 50%;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                            }
+                        }
+                }
+            }
+            .boxes5{
+                .box1{
+                    box-shadow: 0 0 5px;
+                    border: none;
+                    margin-bottom: 30px;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    .image{
+                        overflow: hidden;
+                        margin-bottom: 20px;
+                        position: relative;
+                        
+                        &::before{
+                            content: 'Health';
+                            position: absolute;
+                            background-color: #3bbca7;
+                            z-index: 9;
+                            top: 18%;
+                            font-size: 15px;
+                            left: 8%;
+                            color: white;
+                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            font-weight: 600;
+                            padding: 5px 15px;
+                            border-radius: 8mm;
+                        }
+                        img{
+                            transition: 0.5s ease-in-out;
+                            transform: scale(1);
+                            width: 100%;
+                            &:hover{
+                                transform: scale(1.1);
+                            }
+                        }
+                        
+                    }
+                        .span1,.span2{
+                            color: #666666;
+                            display: inline-block;
+                            transition: 0.3s ease-in-out;
+                            font-size: 15px;
+                            i{
+                                color: #3bbca7;
+                                margin: 0 5px;
+                            }
+                            &:hover{
+                                color: #3bbca7;
+                            }
+                        }
+                        .span2{
+                            margin-left: 10px;
+                        }
+                        .h1{
+                            color: #072f60;
+                            margin-top: 20px;
+                            display: inline-block;
+                            text-decoration: none;
+                            font-size: 20px;
+                            line-height: 32px;
+                            font-weight: 600;
+                            transition: 0.3s ease-in-out;
+                            &:hover{
+                                color: #3bbca7;
+                            }
+        
+                        }
+                        .h2{
+                            font-size: 14px;
+                            color: #3bbca7;
+                            margin: 15px 0 28px 0;
+                            display: inline-block;
+                            text-decoration: none;
+                            position: relative;
+                            &::before{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &::after{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &:hover{
+                                &::before{
+                                    left: 0;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                                &::after{
+                                    left: 50%;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                            }
+                        }
+                }
+            }
+            .boxes6{
+                .box1{
+                    box-shadow: 0 0 5px;
+                    border: none;
+                    margin-bottom: 30px;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    .image{
+                        overflow: hidden;
+                        margin-bottom: 20px;
+                        position: relative;
+                        
+                        &::before{
+                            content: 'Lifestyle';
+                            position: absolute;
+                            background-color: #3bbca7;
+                            z-index: 9;
+                            top: 18%;
+                            font-size: 15px;
+                            left: 8%;
+                            color: white;
+                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            font-weight: 600;
+                            padding: 5px 15px;
+                            border-radius: 8mm;
+                        }
+                        img{
+                            transition: 0.5s ease-in-out;
+                            transform: scale(1);
+                            width: 100%;
+                            &:hover{
+                                transform: scale(1.1);
+                            }
+                        }
+                        
+                    }
+                        .span1,.span2{
+                            color: #666666;
+                            display: inline-block;
+                            transition: 0.3s ease-in-out;
+                            font-size: 15px;
+                            i{
+                                color: #3bbca7;
+                                margin: 0 5px;
+                            }
+                            &:hover{
+                                color: #3bbca7;
+                            }
+                        }
+                        .span2{
+                            margin-left: 10px;
+                        }
+                        .h1{
+                            color: #072f60;
+                            margin-top: 20px;
+                            display: inline-block;
+                            text-decoration: none;
+                            font-size: 20px;
+                            line-height: 32px;
+                            font-weight: 600;
+                            transition: 0.3s ease-in-out;
+                            &:hover{
+                                color: #3bbca7;
+                            }
+        
+                        }
+                        .h2{
+                            font-size: 14px;
+                            color: #3bbca7;
+                            margin: 15px 0 28px 0;
+                            display: inline-block;
+                            text-decoration: none;
+                            position: relative;
+                            &::before{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &::after{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &:hover{
+                                &::before{
+                                    left: 0;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                                &::after{
+                                    left: 50%;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                            }
+                        }
+                }
+            }
+            .boxes7{
+                .box1{
+                    box-shadow: 0 0 5px;
+                    border: none;
+                    margin-bottom: 30px;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    .image{
+                        overflow: hidden;
+                        margin-bottom: 20px;
+                        position: relative;
+                        
+                        &::before{
+                            content: 'Learning';
+                            position: absolute;
+                            background-color: #3bbca7;
+                            z-index: 9;
+                            top: 18%;
+                            font-size: 15px;
+                            left: 8%;
+                            color: white;
+                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            font-weight: 600;
+                            padding: 5px 15px;
+                            border-radius: 8mm;
+                        }
+                        img{
+                            transition: 0.5s ease-in-out;
+                            transform: scale(1);
+                            width: 100%;
+                            &:hover{
+                                transform: scale(1.1);
+                            }
+                        }
+                        
+                    }
+                        .span1,.span2{
+                            color: #666666;
+                            display: inline-block;
+                            transition: 0.3s ease-in-out;
+                            font-size: 15px;
+                            i{
+                                color: #3bbca7;
+                                margin: 0 5px;
+                            }
+                            &:hover{
+                                color: #3bbca7;
+                            }
+                        }
+                        .span2{
+                            margin-left: 10px;
+                        }
+                        .h1{
+                            color: #072f60;
+                            margin-top: 20px;
+                            display: inline-block;
+                            text-decoration: none;
+                            font-size: 20px;
+                            line-height: 32px;
+                            font-weight: 600;
+                            transition: 0.3s ease-in-out;
+                            &:hover{
+                                color: #3bbca7;
+                            }
+        
+                        }
+                        .h2{
+                            font-size: 14px;
+                            color: #3bbca7;
+                            margin: 15px 0 28px 0;
+                            display: inline-block;
+                            text-decoration: none;
+                            position: relative;
+                            &::before{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &::after{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &:hover{
+                                &::before{
+                                    left: 0;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                                &::after{
+                                    left: 50%;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                            }
+                        }
+                }
+            }
+            .boxes8{
+                .box1{
+                    box-shadow: 0 0 5px;
+                    border: none;
+                    margin-bottom: 30px;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    .image{
+                        overflow: hidden;
+                        margin-bottom: 20px;
+                        position: relative;
+                        
+                        &::before{
+                            content: 'Learning';
+                            position: absolute;
+                            background-color: #3bbca7;
+                            z-index: 9;
+                            top: 18%;
+                            font-size: 15px;
+                            left: 8%;
+                            color: white;
+                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            font-weight: 600;
+                            padding: 5px 15px;
+                            border-radius: 8mm;
+                        }
+                        img{
+                            transition: 0.5s ease-in-out;
+                            transform: scale(1);
+                            width: 100%;
+                            &:hover{
+                                transform: scale(1.1);
+                            }
+                        }
+                        
+                    }
+                        .span1,.span2{
+                            color: #666666;
+                            display: inline-block;
+                            transition: 0.3s ease-in-out;
+                            font-size: 15px;
+                            i{
+                                color: #3bbca7;
+                                margin: 0 5px;
+                            }
+                            &:hover{
+                                color: #3bbca7;
+                            }
+                        }
+                        .span2{
+                            margin-left: 10px;
+                        }
+                        .h1{
+                            color: #072f60;
+                            margin-top: 20px;
+                            display: inline-block;
+                            text-decoration: none;
+                            font-size: 20px;
+                            line-height: 32px;
+                            font-weight: 600;
+                            transition: 0.3s ease-in-out;
+                            &:hover{
+                                color: #3bbca7;
+                            }
+        
+                        }
+                        .h2{
+                            font-size: 14px;
+                            color: #3bbca7;
+                            margin: 15px 0 28px 0;
+                            display: inline-block;
+                            text-decoration: none;
+                            position: relative;
+                            &::before{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &::after{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &:hover{
+                                &::before{
+                                    left: 0;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                                &::after{
+                                    left: 50%;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                            }
+                        }
+                }
+            }
+            .boxes9{
+                .box1{
+                    box-shadow: 0 0 5px;
+                    border: none;
+                    margin-bottom: 30px;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    .image{
+                        overflow: hidden;
+                        margin-bottom: 20px;
+                        position: relative;
+                        
+                        &::before{
+                            content: 'Finance';
+                            position: absolute;
+                            background-color: #3bbca7;
+                            z-index: 9;
+                            top: 18%;
+                            font-size: 15px;
+                            left: 8%;
+                            color: white;
+                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            font-weight: 600;
+                            padding: 5px 15px;
+                            border-radius: 8mm;
+                        }
+                        img{
+                            transition: 0.5s ease-in-out;
+                            transform: scale(1);
+                            width: 100%;
+                            &:hover{
+                                transform: scale(1.1);
+                            }
+                        }
+                        
+                    }
+                        .span1,.span2{
+                            color: #666666;
+                            display: inline-block;
+                            transition: 0.3s ease-in-out;
+                            font-size: 15px;
+                            i{
+                                color: #3bbca7;
+                                margin: 0 5px;
+                            }
+                            &:hover{
+                                color: #3bbca7;
+                            }
+                        }
+                        .span2{
+                            margin-left: 10px;
+                        }
+                        .h1{
+                            color: #072f60;
+                            margin-top: 20px;
+                            display: inline-block;
+                            text-decoration: none;
+                            font-size: 20px;
+                            line-height: 32px;
+                            font-weight: 600;
+                            transition: 0.3s ease-in-out;
+                            &:hover{
+                                color: #3bbca7;
+                            }
+        
+                        }
+                        .h2{
+                            font-size: 14px;
+                            color: #3bbca7;
+                            margin: 15px 0 28px 0;
+                            display: inline-block;
+                            text-decoration: none;
+                            position: relative;
+                            &::before{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &::after{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &:hover{
+                                &::before{
+                                    left: 0;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                                &::after{
+                                    left: 50%;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                            }
+                        }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:1072px) and (max-width:1200px) {
+    #blog{
+        .one{
+            background-color: aquamarine;
+            padding: 6.7rem;
+            position: relative;
+            .soz{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50% ,-50%);
+                h1{
+                    color: #072f60;
+                    font-size: 32px;
+                    line-height: 56px;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: 700;
+                }
+                p{
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: 500;
+                    font-size: 15px;
+                    margin-left: 2px;
+                    color: #3bbca7;
+                    transition: 0.5s ease-in-out;
+                    a{
+                        margin-left: 10px;
+                        text-decoration: none;
+                        color: #666666;
+                        font-size: 15px;
+                        display: inline-block;
+                        transition: 0.5s ease-in-out;
+                    }
+                    span{
+                        color: #666666;
+                    }
+                }
+                &:hover{
+                    a{
+                        color: #3bbca7;
+                    }
+                    p{
+                        color: #666666;
+                    }
+                }
+            }
+        }
+        .two{
+            margin-top: 100px;
+            .boxes1{
+                .box1{
+                    box-shadow: 0 0 5px;
+                    border: none;
+                    margin-bottom: 30px;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    .image{
+                        overflow: hidden;
+                        margin-bottom: 20px;
+                        position: relative;
+                        
+                        &::before{
+                            content: 'Lifestyle';
+                            position: absolute;
+                            background-color: #3bbca7;
+                            z-index: 9;
+                            top: 18%;
+                            font-size: 15px;
+                            left: 8%;
+                            color: white;
+                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            font-weight: 600;
+                            padding: 5px 15px;
+                            border-radius: 8mm;
+                        }
+                        img{
+                            transition: 0.5s ease-in-out;
+                            transform: scale(1);
+                            width: 100%;
+                            &:hover{
+                                transform: scale(1.1);
+                            }
+                        }
+                        
+                    }
+                        .span1,.span2{
+                            color: #666666;
+                            display: inline-block;
+                            transition: 0.3s ease-in-out;
+                            font-size: 15px;
+                            i{
+                                color: #3bbca7;
+                                margin: 0 5px;
+                            }
+                            &:hover{
+                                color: #3bbca7;
+                            }
+                        }
+                        .span2{
+                            margin-left: 10px;
+                        }
+                        .h1{
+                            color: #072f60;
+                            margin-top: 20px;
+                            display: inline-block;
+                            text-decoration: none;
+                            font-size: 22px;
+                            line-height: 32px;
+                            font-weight: 600;
+                            transition: 0.3s ease-in-out;
+                            &:hover{
+                                color: #3bbca7;
+                            }
+        
+                        }
+                        .h2{
+                            font-size: 14px;
+                            color: #3bbca7;
+                            margin: 15px 0 28px 0;
+                            display: inline-block;
+                            text-decoration: none;
+                            position: relative;
+                            &::before{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &::after{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &:hover{
+                                &::before{
+                                    left: 0;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                                &::after{
+                                    left: 50%;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                            }
+                        }
+                }
+            }
+            .boxes2{
+                .box1{
+                    box-shadow: 0 0 5px;
+                    border: none;
+                    margin-bottom: 30px;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    .image{
+                        overflow: hidden;
+                        margin-bottom: 20px;
+                        position: relative;
+                        
+                        &::before{
+                            content: 'Lifestyle';
+                            position: absolute;
+                            background-color: #3bbca7;
+                            z-index: 9;
+                            top: 18%;
+                            font-size: 15px;
+                            left: 8%;
+                            color: white;
+                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            font-weight: 600;
+                            padding: 5px 15px;
+                            border-radius: 8mm;
+                        }
+                        img{
+                            transition: 0.5s ease-in-out;
+                            transform: scale(1);
+                            width: 100%;
+                            &:hover{
+                                transform: scale(1.1);
+                            }
+                        }
+                        
+                    }
+                        .span1,.span2{
+                            color: #666666;
+                            display: inline-block;
+                            transition: 0.3s ease-in-out;
+                            font-size: 15px;
+                            i{
+                                color: #3bbca7;
+                                margin: 0 5px;
+                            }
+                            &:hover{
+                                color: #3bbca7;
+                            }
+                        }
+                        .span2{
+                            margin-left: 10px;
+                        }
+                        .h1{
+                            color: #072f60;
+                            margin-top: 20px;
+                            display: inline-block;
+                            text-decoration: none;
+                            font-size: 22px;
+                            line-height: 32px;
+                            font-weight: 600;
+                            transition: 0.3s ease-in-out;
+                            &:hover{
+                                color: #3bbca7;
+                            }
+        
+                        }
+                        .h2{
+                            font-size: 14px;
+                            color: #3bbca7;
+                            margin: 15px 0 28px 0;
+                            display: inline-block;
+                            text-decoration: none;
+                            position: relative;
+                            &::before{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &::after{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &:hover{
+                                &::before{
+                                    left: 0;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                                &::after{
+                                    left: 50%;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                            }
+                        }
+                }
+            }
+            .boxes3{
+                .box1{
+                    box-shadow: 0 0 5px;
+                    border: none;
+                    margin-bottom: 30px;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    .image{
+                        overflow: hidden;
+                        margin-bottom: 20px;
+                        position: relative;
+                        
+                        &::before{
+                            content: 'Learning';
+                            position: absolute;
+                            background-color: #3bbca7;
+                            z-index: 9;
+                            top: 18%;
+                            font-size: 15px;
+                            left: 8%;
+                            color: white;
+                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            font-weight: 600;
+                            padding: 5px 15px;
+                            border-radius: 8mm;
+                        }
+                        img{
+                            transition: 0.5s ease-in-out;
+                            transform: scale(1);
+                            width: 100%;
+                            &:hover{
+                                transform: scale(1.1);
+                            }
+                        }
+                        
+                    }
+                        .span1,.span2{
+                            color: #666666;
+                            display: inline-block;
+                            transition: 0.3s ease-in-out;
+                            font-size: 15px;
+                            i{
+                                color: #3bbca7;
+                                margin: 0 5px;
+                            }
+                            &:hover{
+                                color: #3bbca7;
+                            }
+                        }
+                        .span2{
+                            margin-left: 10px;
+                        }
+                        .h1{
+                            color: #072f60;
+                            margin-top: 20px;
+                            display: inline-block;
+                            text-decoration: none;
+                            font-size: 22px;
+                            line-height: 32px;
+                            font-weight: 600;
+                            transition: 0.3s ease-in-out;
+                            &:hover{
+                                color: #3bbca7;
+                            }
+        
+                        }
+                        .h2{
+                            font-size: 14px;
+                            color: #3bbca7;
+                            margin: 15px 0 28px 0;
+                            display: inline-block;
+                            text-decoration: none;
+                            position: relative;
+                            &::before{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &::after{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &:hover{
+                                &::before{
+                                    left: 0;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                                &::after{
+                                    left: 50%;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                            }
+                        }
+                }
+            }
+            .boxes4{
+                .box1{
+                    box-shadow: 0 0 5px;
+                    border: none;
+                    margin-bottom: 30px;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    .image{
+                        overflow: hidden;
+                        margin-bottom: 20px;
+                        position: relative;
+                        
+                        &::before{
+                            content: 'Science';
+                            position: absolute;
+                            background-color: #3bbca7;
+                            z-index: 9;
+                            top: 18%;
+                            font-size: 15px;
+                            left: 8%;
+                            color: white;
+                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            font-weight: 600;
+                            padding: 5px 15px;
+                            border-radius: 8mm;
+                        }
+                        img{
+                            transition: 0.5s ease-in-out;
+                            transform: scale(1);
+                            width: 100%;
+                            &:hover{
+                                transform: scale(1.1);
+                            }
+                        }
+                        
+                    }
+                        .span1,.span2{
+                            color: #666666;
+                            display: inline-block;
+                            transition: 0.3s ease-in-out;
+                            font-size: 15px;
+                            i{
+                                color: #3bbca7;
+                                margin: 0 5px;
+                            }
+                            &:hover{
+                                color: #3bbca7;
+                            }
+                        }
+                        .span2{
+                            margin-left: 10px;
+                        }
+                        .h1{
+                            color: #072f60;
+                            margin-top: 20px;
+                            display: inline-block;
+                            text-decoration: none;
+                            font-size: 22px;
+                            line-height: 32px;
+                            font-weight: 600;
+                            transition: 0.3s ease-in-out;
+                            &:hover{
+                                color: #3bbca7;
+                            }
+        
+                        }
+                        .h2{
+                            font-size: 14px;
+                            color: #3bbca7;
+                            margin: 15px 0 28px 0;
+                            display: inline-block;
+                            text-decoration: none;
+                            position: relative;
+                            &::before{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &::after{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &:hover{
+                                &::before{
+                                    left: 0;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                                &::after{
+                                    left: 50%;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                            }
+                        }
+                }
+            }
+            .boxes5{
+                .box1{
+                    box-shadow: 0 0 5px;
+                    border: none;
+                    margin-bottom: 30px;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    .image{
+                        overflow: hidden;
+                        margin-bottom: 20px;
+                        position: relative;
+                        
+                        &::before{
+                            content: 'Health';
+                            position: absolute;
+                            background-color: #3bbca7;
+                            z-index: 9;
+                            top: 18%;
+                            font-size: 15px;
+                            left: 8%;
+                            color: white;
+                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            font-weight: 600;
+                            padding: 5px 15px;
+                            border-radius: 8mm;
+                        }
+                        img{
+                            transition: 0.5s ease-in-out;
+                            transform: scale(1);
+                            width: 100%;
+                            &:hover{
+                                transform: scale(1.1);
+                            }
+                        }
+                        
+                    }
+                        .span1,.span2{
+                            color: #666666;
+                            display: inline-block;
+                            transition: 0.3s ease-in-out;
+                            font-size: 15px;
+                            i{
+                                color: #3bbca7;
+                                margin: 0 5px;
+                            }
+                            &:hover{
+                                color: #3bbca7;
+                            }
+                        }
+                        .span2{
+                            margin-left: 10px;
+                        }
+                        .h1{
+                            color: #072f60;
+                            margin-top: 20px;
+                            display: inline-block;
+                            text-decoration: none;
+                            font-size: 22px;
+                            line-height: 32px;
+                            font-weight: 600;
+                            transition: 0.3s ease-in-out;
+                            &:hover{
+                                color: #3bbca7;
+                            }
+        
+                        }
+                        .h2{
+                            font-size: 14px;
+                            color: #3bbca7;
+                            margin: 15px 0 28px 0;
+                            display: inline-block;
+                            text-decoration: none;
+                            position: relative;
+                            &::before{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &::after{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &:hover{
+                                &::before{
+                                    left: 0;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                                &::after{
+                                    left: 50%;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                            }
+                        }
+                }
+            }
+            .boxes6{
+                .box1{
+                    box-shadow: 0 0 5px;
+                    border: none;
+                    margin-bottom: 30px;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    .image{
+                        overflow: hidden;
+                        margin-bottom: 20px;
+                        position: relative;
+                        
+                        &::before{
+                            content: 'Lifestyle';
+                            position: absolute;
+                            background-color: #3bbca7;
+                            z-index: 9;
+                            top: 18%;
+                            font-size: 15px;
+                            left: 8%;
+                            color: white;
+                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            font-weight: 600;
+                            padding: 5px 15px;
+                            border-radius: 8mm;
+                        }
+                        img{
+                            transition: 0.5s ease-in-out;
+                            transform: scale(1);
+                            width: 100%;
+                            &:hover{
+                                transform: scale(1.1);
+                            }
+                        }
+                        
+                    }
+                        .span1,.span2{
+                            color: #666666;
+                            display: inline-block;
+                            transition: 0.3s ease-in-out;
+                            font-size: 15px;
+                            i{
+                                color: #3bbca7;
+                                margin: 0 5px;
+                            }
+                            &:hover{
+                                color: #3bbca7;
+                            }
+                        }
+                        .span2{
+                            margin-left: 10px;
+                        }
+                        .h1{
+                            color: #072f60;
+                            margin-top: 20px;
+                            display: inline-block;
+                            text-decoration: none;
+                            font-size: 22px;
+                            line-height: 32px;
+                            font-weight: 600;
+                            transition: 0.3s ease-in-out;
+                            &:hover{
+                                color: #3bbca7;
+                            }
+        
+                        }
+                        .h2{
+                            font-size: 14px;
+                            color: #3bbca7;
+                            margin: 15px 0 28px 0;
+                            display: inline-block;
+                            text-decoration: none;
+                            position: relative;
+                            &::before{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &::after{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &:hover{
+                                &::before{
+                                    left: 0;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                                &::after{
+                                    left: 50%;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                            }
+                        }
+                }
+            }
+            .boxes7{
+                .box1{
+                    box-shadow: 0 0 5px;
+                    border: none;
+                    margin-bottom: 30px;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    .image{
+                        overflow: hidden;
+                        margin-bottom: 20px;
+                        position: relative;
+                        
+                        &::before{
+                            content: 'Learning';
+                            position: absolute;
+                            background-color: #3bbca7;
+                            z-index: 9;
+                            top: 18%;
+                            font-size: 15px;
+                            left: 8%;
+                            color: white;
+                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            font-weight: 600;
+                            padding: 5px 15px;
+                            border-radius: 8mm;
+                        }
+                        img{
+                            transition: 0.5s ease-in-out;
+                            transform: scale(1);
+                            width: 100%;
+                            &:hover{
+                                transform: scale(1.1);
+                            }
+                        }
+                        
+                    }
+                        .span1,.span2{
+                            color: #666666;
+                            display: inline-block;
+                            transition: 0.3s ease-in-out;
+                            font-size: 15px;
+                            i{
+                                color: #3bbca7;
+                                margin: 0 5px;
+                            }
+                            &:hover{
+                                color: #3bbca7;
+                            }
+                        }
+                        .span2{
+                            margin-left: 10px;
+                        }
+                        .h1{
+                            color: #072f60;
+                            margin-top: 20px;
+                            display: inline-block;
+                            text-decoration: none;
+                            font-size: 22px;
+                            line-height: 32px;
+                            font-weight: 600;
+                            transition: 0.3s ease-in-out;
+                            &:hover{
+                                color: #3bbca7;
+                            }
+        
+                        }
+                        .h2{
+                            font-size: 14px;
+                            color: #3bbca7;
+                            margin: 15px 0 28px 0;
+                            display: inline-block;
+                            text-decoration: none;
+                            position: relative;
+                            &::before{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &::after{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &:hover{
+                                &::before{
+                                    left: 0;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                                &::after{
+                                    left: 50%;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                            }
+                        }
+                }
+            }
+            .boxes8{
+                .box1{
+                    box-shadow: 0 0 5px;
+                    border: none;
+                    margin-bottom: 30px;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    .image{
+                        overflow: hidden;
+                        margin-bottom: 20px;
+                        position: relative;
+                        
+                        &::before{
+                            content: 'Learning';
+                            position: absolute;
+                            background-color: #3bbca7;
+                            z-index: 9;
+                            top: 18%;
+                            font-size: 15px;
+                            left: 8%;
+                            color: white;
+                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            font-weight: 600;
+                            padding: 5px 15px;
+                            border-radius: 8mm;
+                        }
+                        img{
+                            transition: 0.5s ease-in-out;
+                            transform: scale(1);
+                            width: 100%;
+                            &:hover{
+                                transform: scale(1.1);
+                            }
+                        }
+                        
+                    }
+                        .span1,.span2{
+                            color: #666666;
+                            display: inline-block;
+                            transition: 0.3s ease-in-out;
+                            font-size: 15px;
+                            i{
+                                color: #3bbca7;
+                                margin: 0 5px;
+                            }
+                            &:hover{
+                                color: #3bbca7;
+                            }
+                        }
+                        .span2{
+                            margin-left: 10px;
+                        }
+                        .h1{
+                            color: #072f60;
+                            margin-top: 20px;
+                            display: inline-block;
+                            text-decoration: none;
+                            font-size: 22px;
+                            line-height: 32px;
+                            font-weight: 600;
+                            transition: 0.3s ease-in-out;
+                            &:hover{
+                                color: #3bbca7;
+                            }
+        
+                        }
+                        .h2{
+                            font-size: 14px;
+                            color: #3bbca7;
+                            margin: 15px 0 28px 0;
+                            display: inline-block;
+                            text-decoration: none;
+                            position: relative;
+                            &::before{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &::after{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &:hover{
+                                &::before{
+                                    left: 0;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                                &::after{
+                                    left: 50%;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                            }
+                        }
+                }
+            }
+            .boxes9{
+                .box1{
+                    box-shadow: 0 0 5px;
+                    border: none;
+                    margin-bottom: 30px;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    .image{
+                        overflow: hidden;
+                        margin-bottom: 20px;
+                        position: relative;
+                        
+                        &::before{
+                            content: 'Finance';
+                            position: absolute;
+                            background-color: #3bbca7;
+                            z-index: 9;
+                            top: 18%;
+                            font-size: 15px;
+                            left: 8%;
+                            color: white;
+                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            font-weight: 600;
+                            padding: 5px 15px;
+                            border-radius: 8mm;
+                        }
+                        img{
+                            transition: 0.5s ease-in-out;
+                            transform: scale(1);
+                            width: 100%;
+                            &:hover{
+                                transform: scale(1.1);
+                            }
+                        }
+                        
+                    }
+                        .span1,.span2{
+                            color: #666666;
+                            display: inline-block;
+                            transition: 0.3s ease-in-out;
+                            font-size: 15px;
+                            i{
+                                color: #3bbca7;
+                                margin: 0 5px;
+                            }
+                            &:hover{
+                                color: #3bbca7;
+                            }
+                        }
+                        .span2{
+                            margin-left: 10px;
+                        }
+                        .h1{
+                            color: #072f60;
+                            margin-top: 20px;
+                            display: inline-block;
+                            text-decoration: none;
+                            font-size: 22px;
+                            line-height: 32px;
+                            font-weight: 600;
+                            transition: 0.3s ease-in-out;
+                            &:hover{
+                                color: #3bbca7;
+                            }
+        
+                        }
+                        .h2{
+                            font-size: 14px;
+                            color: #3bbca7;
+                            margin: 15px 0 28px 0;
+                            display: inline-block;
+                            text-decoration: none;
+                            position: relative;
+                            &::before{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &::after{
+                                content: '';
+                                position: absolute;
+                                left: 25%;
+                                width: 50%;
+                                background-color: #3bbca7;
+                                height: 2px;
+                                top: 100%;
+                                border-radius: 8mm;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 2s ease-in-out;
+                            }
+                            &:hover{
+                                &::before{
+                                    left: 0;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                                &::after{
+                                    left: 50%;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                            }
+                        }
+                }
+            }
+        }
+    }
+}

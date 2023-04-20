@@ -1,0 +1,119 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  flex: 25%;
+}
+.col-25 .container {
+  background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1614386918_9-p-pitstsa-na-svetlom-fone-13.jpg);
+  background-position: right;
+  border-radius: 2mm;
+}
+.col-25 .container span {
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+}
+
+.col-50 {
+  flex: 50%;
+}
+
+.col-75 {
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: rgb(230, 88, 36);
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3cm;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+label i {
+  padding-right: 10px;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: red;
+  border-radius: 8mm;
+}
+
+span.price {
+  float: right;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  border-bottom: 2px solid black;
+}
+
+p a {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+}
+
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+  .col-25 .container {
+    background-image: url(https://mms.businesswire.com/media/20160112005348/en/504008/5/works-ingredients.jpg?download=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+  }
+  .col-25 .container h4 {
+    color: orangered;
+  }
+  .col-25 .container a {
+    color: orangered;
+  }
+  .col-25 .container span {
+    font-size: 20px;
+    border: none;
+    color: orangered;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.snow-rainy {
+  width: 100%;
+  height: 100vh;
+  background: url(../Image/wp6899583.webp);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: initial;
+  position: relative;
+  background-origin: border-box;
+}
+
+.picture {
+  position: relative;
+}
+
+.fa-snowflake {
+  color: #fff;
+  font-size: 8px;
+  position: absolute;
+  top: -30px;
+  left: 0;
+  animation: rainy 3s linear forwards;
+}
+
+@keyframes rainy {
+  to {
+    transform: translateY(100vh);
+  }
+}/*# sourceMappingURL=style.css.map */

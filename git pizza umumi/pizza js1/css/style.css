@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.boxes {
+  width: 100%;
+  margin: 70px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.boxes .sol {
+  position: relative;
+  width: 22%;
+}
+.boxes .sol .biber {
+  position: absolute;
+  left: 20%;
+  opacity: 0;
+  visibility: hidden;
+  width: 70%;
+}
+.boxes .sol .biber h1 {
+  font-size: 22px;
+}
+.boxes .sol .biber img {
+  margin: 20px 0;
+  width: 50%;
+}
+.boxes .sol .biber.active {
+  opacity: 1;
+  visibility: visible;
+}
+.boxes .sol .et {
+  position: absolute;
+  top: 0;
+  left: 20%;
+  opacity: 0;
+  visibility: hidden;
+  width: 70%;
+}
+.boxes .sol .et h1 {
+  margin-left: 15px;
+  font-size: 22px;
+}
+.boxes .sol .et img {
+  margin: 20px 0;
+  width: 50%;
+}
+.boxes .sol .et.active {
+  opacity: 1;
+  visibility: visible;
+}
+.boxes .sol .pendir {
+  position: absolute;
+  top: 0;
+  left: 20%;
+  opacity: 0;
+  visibility: hidden;
+  width: 70%;
+}
+.boxes .sol .pendir h1 {
+  margin-left: 12px;
+  font-size: 22px;
+}
+.boxes .sol .pendir img {
+  margin: 20px 0;
+  width: 50%;
+}
+.boxes .sol .pendir.active {
+  opacity: 1;
+  visibility: visible;
+}
+.boxes .sol .edviyyat {
+  position: absolute;
+  top: 0;
+  left: 20%;
+  opacity: 0;
+  visibility: hidden;
+  width: 70%;
+}
+.boxes .sol .edviyyat h1 {
+  font-size: 22px;
+}
+.boxes .sol .edviyyat img {
+  margin: 20px 0;
+  width: 50%;
+}
+.boxes .sol .edviyyat.active {
+  opacity: 1;
+  visibility: visible;
+}
+.boxes .icon {
+  display: none;
+  width: 5%;
+}
+.boxes .pizza {
+  margin: 70px auto;
+  width: 58%;
+}
+.boxes .pizza img {
+  width: 90%;
+}
+.boxes .sag {
+  margin: 0 20px;
+  width: 16%;
+}
+.boxes .sag img {
+  margin: 15px 10px;
+  width: 40%;
+}/*# sourceMappingURL=style.css.map */

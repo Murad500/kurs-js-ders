@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#header .container {
+  width: 98%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+#header .container .logo {
+  width: 12%;
+}
+#header .container .logo img {
+  width: 90%;
+}
+#header .container .ulli {
+  display: flex;
+  width: 66%;
+  margin-left: 10px;
+}
+#header .container .ulli .home ul {
+  display: none;
+}
+#header .container .ulli .home ul li p {
+  display: flex;
+}
+#header .container .ulli .link ul {
+  display: none;
+}
+#header .container .ulli .link ul li p {
+  display: flex;
+}
+#header .container .ulli .dopdown ul {
+  display: none;
+}
+#header .container .ulli .dopdown ul li p {
+  display: flex;
+}
+#header .container .ulli .disabled ul {
+  display: none;
+}
+#header .container .ulli .disabled ul li p {
+  display: flex;
+}
+#header .container .ulli li {
+  list-style: none;
+}
+#header .container .ulli li p {
+  color: black;
+  margin: 10px;
+  display: inline-block;
+  text-decoration: none;
+}
+#header .container input {
+  margin-top: 7px;
+  height: 4vh;
+  width: 14%;
+  border: none;
+  padding: 0 10px;
+}
+#header .container .aya {
+  border: 1px solid blue;
+  padding: 4px 10px;
+  margin: 6px 10px;
+  text-decoration: none;
+  display: inline-block;
+  height: 28px;
+}
+#header .container .aya:hover {
+  background-color: blue;
+  color: white;
+  transition: 0.5s;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+@media (max-width: 576px) {
+  #header {
+    position: relative;
+    width: 100%;
+  }
+  #header .container {
+    display: flex;
+    width: 98%;
+    margin: auto;
+  }
+  #header .container .logo {
+    justify-content: center;
+    width: 20%;
+  }
+  #header .container .logo img {
+    display: inline-block;
+    width: 100%;
+  }
+  #header .container .ulli {
+    transition: 0.5s;
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    background-color: rgb(75, 75, 210);
+    display: inline-block;
+    opacity: 0;
+    visibility: hidden;
+  }
+  #header .container .ulli.murad {
+    opacity: 1;
+    visibility: visible;
+  }
+  #header .container .ulli .home {
+    position: relative;
+  }
+  #header .container .ulli .home ul {
+    top: 100%;
+    left: 0;
+    position: absolute;
+    display: inline-block;
+    opacity: 0;
+    visibility: hidden;
+  }
+  #header .container .ulli .home ul.home1 {
+    opacity: 1;
+    visibility: visible;
+  }
+  #header .container .ulli .link {
+    position: relative;
+  }
+  #header .container .ulli .link ul {
+    top: 100%;
+    left: 0;
+    position: absolute;
+    display: inline-block;
+    opacity: 0;
+    visibility: hidden;
+  }
+  #header .container .ulli .link ul.link1 {
+    opacity: 1;
+    visibility: visible;
+  }
+  #header .container .ulli .dopdown {
+    position: relative;
+  }
+  #header .container .ulli .dopdown ul {
+    top: 100%;
+    left: 0;
+    position: absolute;
+    display: inline-block;
+    opacity: 0;
+    visibility: hidden;
+  }
+  #header .container .ulli .dopdown ul.dopdown1 {
+    opacity: 1;
+    visibility: visible;
+  }
+  #header .container .ulli .disabled {
+    position: relative;
+  }
+  #header .container .ulli .disabled ul {
+    top: 100%;
+    left: 0;
+    position: absolute;
+    display: inline-block;
+    opacity: 0;
+    visibility: hidden;
+  }
+  #header .container .ulli .disabled ul.disabled1 {
+    opacity: 1;
+    visibility: visible;
+  }
+  #header .container input {
+    display: none;
+  }
+  #header .container .aya {
+    display: none;
+  }
+  #header .container .icon {
+    position: relative;
+    display: flex;
+    width: 78%;
+    justify-content: flex-end;
+  }
+  #header .container .icon .one {
+    height: 2px;
+    width: 7%;
+    background-color: black;
+  }
+  #header .container .icon .one.active1 {
+    position: absolute;
+    top: 20%;
+    transform: rotate(45deg);
+    height: 2px;
+    width: 6%;
+    background-color: black;
+  }
+  #header .container .icon .two {
+    top: 20%;
+    position: absolute;
+    height: 2px;
+    width: 7%;
+    background-color: black;
+  }
+  #header .container .icon .two.active2 {
+    display: none;
+  }
+  #header .container .icon .three {
+    top: 41%;
+    position: absolute;
+    height: 2px;
+    width: 7%;
+    background-color: black;
+  }
+  #header .container .icon .three.active3 {
+    position: absolute;
+    top: 20%;
+    transform: rotate(135deg);
+    height: 2px;
+    width: 6%;
+    background-color: black;
+  }
+}/*# sourceMappingURL=style.css.map */

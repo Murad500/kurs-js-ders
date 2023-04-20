@@ -1,0 +1,23 @@
+#slider {
+  width: 80%;
+  margin: auto;
+  height: 70vh;
+  border: 3px solid red;
+  position: relative;
+}
+#slider .next {
+  position: absolute;
+  top: 50%;
+  font-size: 25px;
+  right: 1%;
+  color: red;
+  transform: translateY(-50%);
+}
+#slider .prev {
+  position: absolute;
+  top: 50%;
+  font-size: 25px;
+  color: red;
+  left: 1%;
+  transform: translateY(-50%);
+}/*# sourceMappingURL=style.css.map */
